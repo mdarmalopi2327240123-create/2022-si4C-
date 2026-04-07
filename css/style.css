@@ -1,0 +1,38 @@
+/* element selector */
+/* referensi web colorhunt.co */
+body {
+    background-color: #1A05A2;
+    color: white;
+    font-family: verdana;
+}
+
+.txt-center { text-align: center; }
+.bg-warning { background-color: yellow; border-radius: 20px 0px 20px 0px; border-style: dashed; border-color: blue; border-width: 5px; }
+.txt-black { color: black; }
+.p-1 { padding: 50px; } /* memberi jarak sisi dalam border */
+.m-1 { margin: 20px; } /* memberi jarak sisi luar border */
+
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  background-color: yellow;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

@@ -3,11 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- tag heading: h1 sd h6 -->
-    <h1>MDP IT SUPERSTORE</h1>
+    <h1 class="txt-center">MDP IT Superstore</h1>
+    <p class="bg-warning txt-black txt-center p-1 m-1">Semua yang dicari ada disini</p>
+    <!-- ini komentar, komentar tidak ditampilkan pada browser -->
+
+    <!-- hyperlink -->
+    <a href="index.html">Beranda</a> |  
+    <a href="tentang.html">Tentang</a> |
+    <a href="hubungi.html">Hubungi Kami</a> 
+    <a href="produk.html">Produk</a> 
+
+    <hr>
+
+    <!-- image -->
+    <img src="images/banner.webp" alt="Gambar banner" width="100%">
+
+    <!-- tabel -->
+    <table border="1">
+        <!-- baris -->
+        <tr>
+            <!-- kolom -->
+            <td>
+                Nama
+            </td>
+            <td>
+                Program Studi
+            </td>
+        </tr> 
+        <tr>
+            <td>Andhika</td>
+            <td>Sistem Informasi</td>
+        </tr>
+    </table>
+
+    <h2>Colspan</h2>
+    <!-- Table colspan -->
+    <table border="1">
+        <!-- baris 1 -->
+        <tr>
+            <td colspan="2">JK</td>
+        </tr>
+        <!-- baris 2 -->
+        <tr>
+            <td>LK</td>
+            <td>PR</td>
+        </tr>
+    </table>
     
+    <h2>Rowspan</h2>
+    <!-- Table rowspan -->
+    <table border="1">
+        <!-- Baris 1 -->
+        <tr>
+            <td rowspan="2">Prodi</td>
+            <td>SI</td>
+        </tr>
+        <!-- Baris 2 -->
+        <tr>
+            <td>IF</td>
+        </tr>
+    </table>
+
+    <h2>Latihan Tabel</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">NPM</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">IP Semester</th>
+            <th rowspan="2">IP Kumulatif</th>
+        </tr>
+        <tr>
+            <th>Smt 1</th>
+            <th>Smt 2</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>001</td>
+            <td>Ahmad</td>
+            <td>4.00</td>
+            <td>4.00</td>
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>002</td>
+            <td>Rizky</td>
+            <td>3.50</td>
+            <td>4.00</td>
+            <td>3.75</td>
+        </tr>
+    </table>
 </body>
 </html>
